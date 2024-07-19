@@ -8,8 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "lint:lint-staged":"lint-staged",
     "format": "prettier --write src/",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "axios": "^1.7.2",
@@ -27,7 +28,7 @@
     "dayjs": "^1.11.11",
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.23.0",
-    "husky": "^8.0.3",
+    "husky": "^9.1.0",
     "lint-staged": "^15.2.7",
     "postcss": "^8.4.39",
     "postcss-html": "^1.7.0",
