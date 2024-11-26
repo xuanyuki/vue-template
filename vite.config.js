@@ -28,9 +28,10 @@ export default defineConfig({
     // 定义全局变量
     preprocessorOptions: {
       scss: {
+        api: 'modern-compiler',
         // 引入覆盖el默认变量得变量文件，并且使用
         // 您应该使用 @use 'xxx.scss' as *; 代替 @import 'xxx.scss';。因为 sass 团队说他们最终会删除 @import 语法。
-        additionalData: `@use "@/styles/element-var.scss" as *;`,
+        // additionalData: `@use "@/styles/element-var.scss" as *;`,
       },
     },
   },
