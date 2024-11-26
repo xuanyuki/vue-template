@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "pnpm install",
-    "up":"pnpm update",
+    "up": "pnpm update",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -16,6 +16,7 @@
     "cz": "git cz"
   },
   "dependencies": {
+    "@vueuse/core": "^11.3.0",
     "axios": "^1.7.7",
     "element-plus": "^2.8.8",
     "pinia": "^2.2.6",
