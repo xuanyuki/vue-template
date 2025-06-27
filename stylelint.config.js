@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   extends: [
     // 用于排序
     'stylelint-config-hudochenkov/order',
