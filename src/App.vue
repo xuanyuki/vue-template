@@ -1,7 +1,7 @@
 <template>
   <ElConfigProvider :locale="zhCn">
     <RouterView />
-    <div class="items-center" />
+    <div class="" />
   </ElConfigProvider>
 </template>
 
