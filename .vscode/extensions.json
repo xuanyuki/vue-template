@@ -4,6 +4,9 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "stylelint.vscode-stylelint",
-    "anish.easy-npm"
+    "anish.easy-npm",
+    "streetsidesoftware.code-spell-checker",
+    "mhutchie.git-graph",
+    "eamodio.gitlens"
   ]
 }
