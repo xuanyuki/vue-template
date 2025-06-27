@@ -62,5 +62,8 @@
     "cz-customizable": {
       "config": ".cz-config.cjs"
     }
+  },
+  "engines": {
+    "node":">=22.12"
   }
 }

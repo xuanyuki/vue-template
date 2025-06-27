@@ -28,5 +28,13 @@
   "less.validate": false,
   "scss.validate": false,
   "stylelint.validate": ["css", "scss", "vue"],
-  "stylelint.enable": true
+  "stylelint.enable": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "tsconfig.json": "tsconfig.*.json, env.d.ts",
+    "vite.config.*": "jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*",
+    "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .oxlint*, oxlint*, .prettier*, prettier*, .editorconfig, .lintstagedrc , tailwind.config.*",
+    ".nvmrc": ".npmrc",
+    "project.yaml": "Jenkinsfile, Dockerfile, .dockerignore"
+  }
 }
